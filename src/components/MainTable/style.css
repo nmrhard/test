@@ -31,7 +31,7 @@
 
 .user-form {
   display: grid;
-  grid-template-columns: 55px 95px 66px 84px 55px;
+  grid-template-columns: 55px 95px 65px 85px 55px;
 }
 
 .user-form input {
