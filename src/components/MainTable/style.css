@@ -1,0 +1,56 @@
+.container .MuiPaper-root {
+  margin-top: 50px;
+  border-radius: 0;
+}
+
+.MuiTable-root .MuiTableCell-root {
+  border: 1px solid black;
+}
+
+.MuiTableBody-root .MuiTableCell-root {
+  cursor: pointer;
+}
+
+.user-table {
+  width: 300px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.user-table th,
+.user-table td {
+  padding: 2px 5px;
+  border: 1px solid black;
+}
+
+.row-form {
+  width: 405px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-form {
+  display: grid;
+  grid-template-columns: 55px 95px 66px 84px 55px;
+}
+
+.user-form input {
+  padding: 2px 5px;
+  font: inherit;
+  border: 1px solid black;
+  border-left: 0;
+  border-top: 0;
+  border-radius: 0;
+}
+
+.user-form button[type='submit'] {
+  margin-left: 10px;
+}
+
+.user-form input:first-child {
+  border-left: 1px solid black;
+}
+
+.button-close {
+  padding: 2px 5px;
+}
